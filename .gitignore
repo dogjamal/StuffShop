@@ -1,0 +1,17 @@
+
+bin
+obj
+packages
+.vs
+*.log
+*.pdb
+*.cache
+*.TMP
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
