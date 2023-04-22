@@ -1,6 +1,8 @@
-﻿namespace StuffShop.Services.Stuffs.Models
+﻿using StuffShop.Business.Interfaces;
+
+namespace StuffShop.Business.Models
 {
-    public class LatestStuffServiceModel
+    public class LatestStuffServiceModel : IStuffModel
     {
         public int Id { get; init; }
 
