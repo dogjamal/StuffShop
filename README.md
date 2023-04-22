@@ -1,2 +1,2 @@
 # StuffShop
- StuffShop wep app
+ StuffShop wep app started from 0
