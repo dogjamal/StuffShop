@@ -1,5 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
+using StuffShop.Extensions;
 
+var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
+
+builder.Services.RegisterDatabase(configuration);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

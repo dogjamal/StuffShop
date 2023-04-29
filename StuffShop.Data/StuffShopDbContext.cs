@@ -5,9 +5,9 @@ using System.Reflection;
 
 namespace StuffShop.Data
 {
-    public class StuffsShopDbContext : IdentityDbContext
+    public class StuffShopDbContext : IdentityDbContext
     {
-        public StuffsShopDbContext(DbContextOptions<StuffsShopDbContext> options) : base(options) {}
+        public StuffShopDbContext(DbContextOptions<StuffShopDbContext> options) : base(options) {}
 
         public DbSet<StuffEntity> Stuffs { get; init; }
 
